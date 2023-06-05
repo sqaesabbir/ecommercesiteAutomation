@@ -163,7 +163,6 @@ public class baseClass {
         Random random = new Random();
         String firstName = firstNames[random.nextInt(firstNames.length)];
         String lastName = lastNames[random.nextInt(lastNames.length)];
-
         return firstName + " " + lastName;
     }
 
